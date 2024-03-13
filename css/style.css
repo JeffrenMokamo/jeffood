@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700; 1 900&family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200; 1 300 ; 1 400 ; 1 500 ; 1 600 ; 1 700 ; 1 800 ; 1 900 00&family=Sora:poids@ 100..800&display=swap');
+
+*, ::after, ::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none!important;
+}
+
+body{
+    font-size: 1rem;
+}
+
+#meche{
+    position: absolute;
+    z-index: -1;
+    top: 30px;
+    left: 1.5rem;
+}
+
+header{
+    height: 70px;
+    padding: 0 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    z-index: 50;
+}
+header nav{
+    margin-top: 20px;
+}
+header #command{
+    background-color: #ff7f09;
+    color: #fff;
+    border-radius: 50px;
+    border: none;
+    padding: 5px  15px;
+}
+
+/* Section Home */
+
+.home{
+    height: 100vh;
+    width: 100%;
+}
+
+.home .container-home{
+    height: 100%;
+    padding: 0 65px;
+}
+
+.home .container-home .content h1{
+    font-family: "sora", sans-serif;
+    font-size: 3rem;
+}
+
+.home .container-home .content div .btn button{
+    border-radius: 50px;
+    width: 11rem;
+    height: 3rem;
+}
+
+.home .container-home .content div .btn #command{
+    background-color: #ff7f09;
+    color: #fff;
+    border: 1px solid #ff7f09;
+}
+.home .container-home .content div .btn #contact{
+    background-color: transparent;
+    border: 1px solid;
+}
+
+/* Section Apropos  */
+
+.about{
+    height: 100vh;
+    width: 100%;
+}
+
+.about .container-about{
+    height: 100%;
+    padding: 0 65px;
+}
+
+.about .container-about .content h2{
+    font-family: "sora", sans-serif;
+}
+
+/* Section Plats */
+
+.dishs{
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+.dishs .container-dish{
+    padding: 0 65px;
+}
+
+.dishs .container-dish div h1{
+    font-family: "sora", sans-serif;
+}
+
+.dishs .container-dish .plats .container-plats .plat{
+    padding: 20px;
+}
+.dishs .container-dish .plats .container-plats .plat div img{
+    width: 220px;
+    border-radius: 50%;
+    height: 220px;
+}
+
+.dishs .container-dish .plats .container-plats .row-1 .vertical-line{
+    border-left: 1px solid rgba(217, 217, 217, 1);
+    height: 300px;
+} 
+
+.dishs .container-dish .plats .container-plats .plat h4{
+    font-family: "sora", sans-serif;
+}
+
+.dishs .container-dish .plats .container-plats .plat div #command{
+    background-color: #ff7f09;
+    color: #fff;
+    border: 1px solid #ff7f09;
+    border-radius: 50px;
+    padding: 5px 10px;   
+}
+
+/***  Section Contact */
+
+.cont{
+    width: 100%;
+    background-color: #000;
+}
+
+.cont #vecteur2, .cont #vecteur1{
+    position: absolute;
+}
+
+.cont #vecteur1{
+    right: 40px;
+    margin-top: 30px;
+}
+
+.cont #vecteur2{
+    margin-top: 250px;
+}
+
+.cont .container-contact{
+    padding: 20px 65px;
+}
+
+.cont .container-contact .formCont h2{
+    color: #fff;
+    font-family: "sora", sans-serif;
+}
+
+.cont .container-contact .formCont form #send{
+    background-color: #ff7f09;
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+}
+
+/**  Section Services **/
+
+.services{
+    width: 100%;
+    height: 100vh;
+}
+
+.services .container-service{
+    height: 100%;
+    padding: 0 65px;
+}
+
+.services .container-service .content .nos-services{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+
+.services .container-service .content .nos-services .service{
+    padding: 30px;
+}
+
+.services .container-service .content .service h5{
+    font-family: "sora", sans-serif;
+}
+
+.services .container-service .content .service h5 i{
+    color: #ff7f09;
+}
+
+.services .container-service .content #all-services{
+    border: none;
+    color: #fff;
+    background-color: #ff7f09;
+    padding: 5px 20px;
+    border-radius: 50px;
+}
